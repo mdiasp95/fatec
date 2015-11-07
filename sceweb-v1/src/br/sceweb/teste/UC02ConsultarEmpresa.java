@@ -28,6 +28,7 @@ public class UC02ConsultarEmpresa {
 		empresa.setCnpj("89424232000180");
 		empresa.setNomeFantasia("X");
 		empresa.setEndereco("Rua ABC, 23");
+		empresa.setTelefone("2222");
 		empresaDAO.adiciona(empresa);
 	}
 
